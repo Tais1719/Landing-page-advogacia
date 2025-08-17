@@ -1,0 +1,29 @@
+.sobre-container {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.sobre-content {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* espaço entre imagem e texto */
+}
+
+.sobre-image {
+  width: 300px; /* ajuste o tamanho da imagem */
+  height: auto;
+  border-radius: 10px; /* opcional, bordas arredondadas */
+}
+
+.sobre-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.sobre-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
