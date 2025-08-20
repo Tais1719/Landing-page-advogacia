@@ -1,16 +1,20 @@
 ⚖️ Landing Page Advocacia com ReactJS
-
 📖 Sobre o Projeto
+
 Site institucional profissional desenvolvido em React para o Escritório de Advocacia Aurora Lima.
 O projeto apresenta design moderno, navegação intuitiva e total responsividade, oferecendo uma experiência excepcional tanto em dispositivos móveis quanto desktop.
+
 ✨ Principais Características
 
-🎨 Design Responsivo - Adaptação perfeita para todos os dispositivos
-🚀 Performance Otimizada - Carregamento rápido e animações suaves
-📱 Mobile First - Desenvolvido pensando primeiro em dispositivos móveis
-🎯 UX/UI Moderno - Interface limpa e profissional
-📧 Formulário Integrado - Sistema de contato funcional
+🎨 Design Responsivo — Adaptação perfeita para todos os dispositivos
 
+🚀 Performance Otimizada — Carregamento rápido e animações suaves
+
+📱 Mobile First — Desenvolvido pensando primeiro em dispositivos móveis
+
+🎯 UX/UI Moderno — Interface limpa e profissional
+
+📧 Formulário Integrado — Sistema de contato funcional
 
 🚀 Objetivo
 
@@ -44,10 +48,10 @@ Integração de formulário de contato
 
 🔗 Links
 
-💻 Projeto Online
+💻 Projeto Online: tais1719.github.io/Landing-page-advogacia
 
-📂 Repositório GitHub
+📂 Repositório GitHub: github.com/Tais1719/Landing-page-advogacia
 
 🤝 Conecte-se
 
-LinkedIn -LinkedIn - Taís Porfírio dos Santos
+LinkedIn — Taís Porfírio dos Santos
