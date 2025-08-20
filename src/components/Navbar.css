@@ -30,9 +30,12 @@ html, body {
     max-width: 90px;
   }
 }
-/* Navbar padrão */
+
+
+
 .navbar {
-  height: 100vh; /* altura completa na tela grande */
+  height: auto; /* deixa o conteúdo definir a altura */
+  min-height: 100vh; /* garante que cubra a tela em desktops */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,35 +45,276 @@ html, body {
   padding: 20px;
 }
 
-/* Responsivo tablet e telas médias */
-@media (max-width: 768px) {
+/* Tablet / telas médias */
+@media (max-width: 1024px) {
   .navbar {
-    height: 60vh; /* reduz altura para tablets */
-    background-size: contain; /* mantém proporção da imagem */
-    background-position: top center;
-  }
-}
-
-/* Responsivo celular pequeno */
-@media (max-width: 480px) {
-  .navbar {
-    height: 50vh; /* altura menor em celulares */
-    background-size: contain; /* evita corte */
-    background-position: top center;
-   
+    min-height: 80vh; /* reduz altura para telas menores */
     padding: 15px;
   }
 }
+
+/* Celulares pequenos */
+@media (max-width: 768px) {
+  .navbar {
+    min-height: 60vh; /* altura menor em mobiles */
+    padding: 10px;
+  }
+}
+
+/* Telas muito pequenas */
+@media (max-width: 480px) {
+  .navbar {
+    min-height: 50vh; /* ocupa apenas o necessário */
+    padding: 5px 10px;
+  }
+}
+
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-family:Arial, Helvetica, sans-serif;
+
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-text h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+}
+
+.btn-contact {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #c9a43d; /* cor dourada */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin-left: 30%;
+}
+
+.btn-contact:hover {
+  background-color: #a3842f;
+}
+
+
+
+
+
+
+/* ===== Mobile primeiro ===== */
+@media (max-width: 800px) {
+  .hero-text {
+
+    top: 55%;
+    left: 67%;
+   
+   
+ 
+
+  
+  }
+
+.hero-text h1 {
+  
+
+     color: rgb(255, 252, 252);
+    font-family: "Merriweather", "Georgia", serif;
+  font-size: 38px;
+
+}
+
+.hero-text h2 {
+  font-size: 15px;
+  color: #eef0d3;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.btn-contact {
+  font-size: 12px;
+  padding: 8px 15px;
+  margin-bottom: 50px;
+}
+
+
+
+
+ }
+
+
+
+
+
+/* ===== Ajustes para tablets (até 920px) ===== */
+@media (max-width: 650px) {
+  .hero-text {
+    top: 60%;
+    left: 55%;
+
+  
+  }
+
+  .hero-text h1 {
+    font-size: 2rem; /* ajuste do tamanho */
+  color: rgb(226, 226, 204);
+    font-family: "Merriweather", "Georgia", serif;
+  }
+
+  .hero-text h2 {
+    font-size: 1.0rem;
+       color: #eef0d3;
+  }
+
+  .btn-contact {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+
+/* Celulares pequenos (até 480px) */
+@media (max-width: 480px) {
+  .hero-text {
+    top: 43%;
+  }
+
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1rem;
+  }
+
+  .btn-contact {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
+
+/* Desktops médios (a partir de 805px) */
+@media (min-width: 810px) {
+
+  .hero-text {
+    top: 60%;             /* centraliza verticalmente */
+    left: 50%;            /* centraliza horizontalmente */
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* centraliza elementos dentro */
+    text-align: center;   /* centraliza texto */
+    gap: 10px;
+  }
+
+  .hero-text h1 {
+    color: rgb(226, 226, 204);
+    font-family: "Merriweather", "Georgia", serif;
+    font-size: 36px;
+    margin: 0;
+  }
+
+  .hero-text h2 {
+    font-size: 20px;
+    margin: 0;
+       color: #eef0d3;
+  }
+
+  .btn-contact {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+
+/* Desktops grandes (a partir de 1200px) */
+@media (min-width: 900px) {
+  .hero-text h1 {
+    margin-top: 90px;
+    font-size: 48px;
+   color: rgb(235, 213, 213);
+    font-family: "Merriweather", "Georgia", serif;
+  }
+
+  .hero-text h2 {
+    font-size: 28px;
+       color: #eef0d3;
+  }
+
+  .btn-contact {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}
+
+/* Desktops grandes (a partir de 1200px) */
+@media (min-width: 990px) {
+  .hero-text h1 {
+    margin-top: 190px;
+    font-size: 48px;
+   color: rgb(226, 226, 204);
+    font-family: "Merriweather", "Georgia", serif;
+  }
+
+  .hero-text h2 {
+    font-size: 28px;
+       color: #eef0d3;
+  }
+
+  .btn-contact {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}
+
+
+
+
+
+/* Desktops grandes (a partir de 1200px) */
+@media (min-width: 1020px) {
+  .hero-text h1 {
+    margin-top: 68vh;
+    font-size: 58px;
+    color: rgb(226, 226, 204);
+    font-family: "Merriweather", "Georgia", serif;
+
+  }
+
+  .hero-text h2 {
+    font-size: 23px;
+    color: #eef0d3;
+    
+  }
+
+  .btn-contact {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}
+
+
+
+
 
 
 /* Links */
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   margin: 0;
   padding: 0;
-  
 }
 
 .nav-links li a {
@@ -82,53 +326,55 @@ html, body {
 }
 
 .nav-links li a:hover {
-  color: #ffdd57;
+  color: #ffeb33;
 }
-
-/* Menu Hamburguer (3 barras) */
-.hamburger {
+/* Botão Menu (3 barras) */
+.span {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 20px;
-  height: 20px;
-  margin-right: 22vh;
+  width: 24px;
+  height: 15px;
   cursor: pointer;
-  z-index: 1001;
+
+
+
 }
 
-.hamburger span {
+.span span {
   display: block;
-  height: 3px;
-  width: 100%;
-  background: #fff;
+  height: 2px;
+  width: 80%;
+  background: #584343;
   border-radius: 2px;
   transition: all 0.3s ease;
 }
 
+
 /* Animação vira X */
-.hamburger.active span:nth-child(1) {
+.span.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
-.hamburger.active span:nth-child(2) {
+.span.active span:nth-child(2) {
   opacity: 0;
 }
-.hamburger.active span:nth-child(3) {
+.span.active span:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
 /* ===== Responsividade ===== */
 @media (max-width: 768px) {
   .nav-links {
-    position: fixed;
-    width: 60px;
+    position: absolute;
     top: 20px;
-    right: 29vh;
-    background: rgba(59, 59, 59, 0.9);
+    width: 125px;
+    right: 0px;
+background-color: rgb(187, 179, 145);
     flex-direction: column;
-    gap: 0.1rem;
-    padding: 10px;
-    border-radius: 19px;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 18px;
+    border-radius: 7px;
     display: none;
     animation: slideDown 0.3s ease forwards;
   }
@@ -137,16 +383,10 @@ html, body {
     display: flex;
   }
 
-  /* Links dentro do menu */
-  .nav-links li a {
-    font-size: 11px;  /* tamanho menor da fonte */
-  }
-
-  .hamburger {
+  .span {
     display: flex;
   }
 }
-
 
 /* Animação do menu descendo */
 @keyframes slideDown {

@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import fundo from "../assets/Home.png";
+import fundo from "../assets/retrato.png";
 import icone from "../assets/logo sombra 1.png";
 
 const links = [
   { label: "Home", section: "#home" },
   { label: "Sobre", section: "#about" },
   { label: "Especialidades", section: "#services" },
-  { label: "ANYWHERE OFFICE", section: "#office" },
+  { label: "Escritório Remoto", section: "#office" },
   { label: "Equipe", section: "#team" },
   { label: "Contato", section: "#contact" }
 ];
@@ -20,9 +20,9 @@ const Navbar = () => {
   const handleLinkClick = (section) => {
     const el = document.querySelector(section);
     if (el) {
-      el.scrollIntoView({ behavior: "smooth" }); // scroll suave
+      el.scrollIntoView({ behavior: "smooth" });
     }
-    setIsOpen(false); // fecha menu mobile
+    setIsOpen(false);
   };
 
   return (
@@ -47,13 +47,22 @@ const Navbar = () => {
         </ul>
 
         <div
-          className={`hamburger ${isOpen ? "active" : ""}`}
+          className={`span ${isOpen ? "active" : ""}`}
           onClick={toggleMenu}
         >
           <span></span>
           <span></span>
           <span></span>
         </div>
+      </div>
+
+      {/* BLOCO DO NOME E BOTÃO */}
+      <div className="hero-text">
+        <h1>Aurora Lima</h1>
+        <h2>Escritório de Advocacia</h2>
+        <a href="#contact" className="btn-contact">
+          Entrar em Contato
+        </a>
       </div>
     </nav>
   );

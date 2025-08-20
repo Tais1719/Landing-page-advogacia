@@ -27,3 +27,55 @@
   line-height: 1.8;
   margin-bottom: 20px;
 }
+.sobre-container { 
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto; /* em vez de 90vh */
+
+  box-sizing: border-box;
+}
+
+.sobre-content {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* espaço entre imagem e texto */
+
+}
+
+/* ===== Responsivo ===== */
+@media (max-width: 1024px) {
+  .sobre-container {
+    padding: 30px 15px;
+    margin: 0; /* remove margem extra */
+  }
+
+  .sobre-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .sobre-image {
+    order: 1;
+    width: 80%;
+    max-width: 280px;
+    margin: 0; /* tira espaço extra */
+  }
+
+  .sobre-text {
+    order: 2;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sobre-container {
+    padding: 20px 10px;
+  }
+
+  .sobre-image {
+    max-width: 200px;
+    margin-top: 0; /* garante que não desça */
+  }
+}
