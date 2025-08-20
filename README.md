@@ -1,57 +1,37 @@
-⚖️ Landing Page Advocacia com ReactJS
-📖 Sobre o Projeto
+# ⚖️ Landing Page Advocacia com ReactJS
 
-Site institucional profissional desenvolvido em React para o Escritório de Advocacia Aurora Lima.
+## 📖 Sobre o Projeto
+Site institucional profissional desenvolvido em React para o Escritório de Advocacia Aurora Lima.  
 O projeto apresenta design moderno, navegação intuitiva e total responsividade, oferecendo uma experiência excepcional tanto em dispositivos móveis quanto desktop.
 
-✨ Principais Características
+## ✨ Principais Características
+- 🎨 Design Responsivo — Adaptação perfeita para todos os dispositivos  
+- 🚀 Performance Otimizada — Carregamento rápido e animações suaves  
+- 📱 Mobile First — Desenvolvido pensando primeiro em dispositivos móveis  
+- 🎯 UX/UI Moderno — Interface limpa e profissional  
+- 📧 Formulário Integrado — Sistema de contato funcional  
 
-🎨 Design Responsivo — Adaptação perfeita para todos os dispositivos
+## 🚀 Objetivo
+- Criar presença digital para escritório de advocacia  
+- Layout responsivo e adaptável (desktop, tablet e mobile)  
+- Navegação intuitiva e experiência do usuário fluida  
 
-🚀 Performance Otimizada — Carregamento rápido e animações suaves
+## 🛠️ Tecnologias
+- ReactJS  
+- JavaScript (ES6+)  
+- CSS3  
+- HTML5  
+- Git & GitHub  
 
-📱 Mobile First — Desenvolvido pensando primeiro em dispositivos móveis
+## ✅ Aprendizados
+- Componentização e organização do código  
+- Estilização responsiva  
+- Clean Code e estrutura modular  
+- Integração de formulário de contato  
 
-🎯 UX/UI Moderno — Interface limpa e profissional
+## 🔗 Links
+- 💻 **[Projeto Online](https://tais1719.github.io/Landing-page-advogacia/)**  
+- 📂 **[Repositório GitHub](https://github.com/Tais1719/Landing-page-advogacia)**  
 
-📧 Formulário Integrado — Sistema de contato funcional
-
-🚀 Objetivo
-
-Criar presença digital para escritório de advocacia
-
-Layout responsivo e adaptável (desktop, tablet e mobile)
-
-Navegação intuitiva e experiência do usuário fluida
-
-🛠️ Tecnologias
-
-ReactJS
-
-JavaScript (ES6+)
-
-CSS3
-
-HTML5
-
-Git & GitHub
-
-✅ Aprendizados
-
-Componentização e organização do código
-
-Estilização responsiva
-
-Clean Code e estrutura modular
-
-Integração de formulário de contato
-
-🔗 Links
-
-💻 Projeto Online: tais1719.github.io/Landing-page-advogacia
-
-📂 Repositório GitHub: github.com/Tais1719/Landing-page-advogacia
-
-🤝 Conecte-se
-
-LinkedIn — Taís Porfírio dos Santos
+## 🤝 Conecte-se
+- [LinkedIn - Taís Porfírio dos Santos](https://www.linkedin.com/in/ta%C3%ADs-porfirio-dos-santos-2a14bb2b4/)
